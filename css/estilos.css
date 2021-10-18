@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'digital-7';
+    src: url(/font/digital-7.ttf);
+}
+body {
+    background-color: #0B0D0C;
+    font-family: 'digital-7';
+}
+#titulo {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin: 3%;
+}
+#calc {
+    background-color: #2e2e2e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 21em;
+    border-radius: 5%;
+}
+.showResult {
+    background-color: #ffffff;
+    margin: 5%;
+    width: 90%;
+    height: 50px;
+    text-align: right;
+    font-size: 50px;
+}
+.areabotoes {
+    width: 90%;
+    margin: 5%;
+}
+button {
+    font-family: 'digital-7';
+    font-size: 25px;
+    cursor: pointer;
+    border: solid #1b1b1b 1px;
+}
+.numeros {
+    width: 55px;
+    height: 50px;
+    background-color: #F2C230;
+    font-size: 40px;
+}
+.add {
+    width: 45px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 40px;
+}
+.sub {
+    width: 45px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 40px;
+}
+.mult {
+    width: 45px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 40px;
+}
+.clear {
+    width: 174px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 40px;
+}
+.div {
+    width: 45px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 40px;
+}
+.zero {
+    width: 174px;
+    height: 50px;
+    background-color: #F2C230;
+    font-size: 40px;
+}
+.igual {
+    width: 45px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 40px;
+}

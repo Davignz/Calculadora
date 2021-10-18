@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/calculator.png">;
+    <title>Calculadora Básica</title>
+</head>
+<body>
+    <h1 id="titulo">CALCULADORA</h1>
+    <section id="calc">
+        <div class="showResult"></div>
+        <div class="areabotoes">
+            <div class="botoes">
+                <button class="clear">AC</button>
+                <button class="div" onclick="insert('/')">/</button>
+                <button class="numeros" onclick="insert('1')">1</button>
+                <button class="numeros" onclick="insert('2')">2</button>
+                <button class="numeros" onclick="insert('3')">3</button>
+                <button class="add" onclick="insert('+')">+</button>
+                <button class="numeros" onclick="insert('4')">4</button>
+                <button class="numeros" onclick="insert('5')">5</button>
+                <button class="numeros" onclick="insert('6')">6</button>
+                <button class="sub" onclick="insert('-')">-</button>
+                <button class="numeros" onclick="insert('7')">7</button>
+                <button class="numeros" onclick="insert('8')">8</button>
+                <button class="numeros" onclick="insert('9')">9</button>
+                <button class="mult" onclick="insert('*')">*</button>
+                <button class="zero" onclick="insert('0')">0</button>
+                <button class="igual" onclick="calcular()">=</button>
+            </div>
+        </div>
+        
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
